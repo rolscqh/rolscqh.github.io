@@ -1,0 +1,32 @@
+body {
+  background: url("/Users/charleschan/Desktop/rolscqh.github.io/unit_3/images/mainsite.JPG");
+  background-size: cover;
+  color: #fff;
+  font-family: Helvetica;
+
+}
+h1 {
+  font-size: 100px;
+  font-weight: 400;
+  text-align: center;
+}
+
+hr {
+  width: 500px;
+}
+
+p{
+	text-align: center;
+	font-size: 40px;
+	font-weight: 200;
+	background-color: rgba(0,255,0,.1);
+	width: 600px;
+}
+
+h2 {
+	font-size: 40px;
+	font-weight: 200;
+	text-align: left;
+	background-color: rgba(0,0,255,.1);
+	width: 500px;	
+}
