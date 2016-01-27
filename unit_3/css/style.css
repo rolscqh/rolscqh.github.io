@@ -1,3 +1,5 @@
+@import url(https://fonts.googleapis.com/css?family=Lobster);
+
 body {
   background: url("/Users/charleschan/Desktop/rolscqh.github.io/unit_3/images/mainsite.JPG");
   background-size: cover;
@@ -6,9 +8,11 @@ body {
 
 }
 h1 {
-  font-size: 100px;
+  font-family: 'Lobster';
+  font-size: 50px;
   font-weight: 400;
-  text-align: center;
+  text-align: left;
+  color: red;
 }
 
 hr {
@@ -16,17 +20,17 @@ hr {
 }
 
 p{
-	text-align: center;
-	font-size: 40px;
+	text-align: left;
+	font-size: 35px;
 	font-weight: 200;
-	background-color: rgba(0,255,0,.1);
+	background-color: rgba(0,0,0,.5);
 	width: 600px;
 }
 
 h2 {
-	font-size: 40px;
+	font-size: 35px;
 	font-weight: 200;
 	text-align: left;
-	background-color: rgba(0,0,255,.1);
+	background-color: rgba(0,0,0,.8);
 	width: 500px;	
 }
