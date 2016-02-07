@@ -1,0 +1,62 @@
+@import url(https://fonts.googleapis.com/css?family=Chelsea+Market);
+@import url(https://fonts.googleapis.com/css?family=Amatic+SC:700);
+
+body {
+  background-color: #ECB028;
+}
+
+header {
+	vertical-align: center;
+	background-color: #FFED74;
+	border: 1px black solid;
+    padding: 20px;
+}
+
+ h1 {
+ 	font-family: 'Chelsea Market';
+ 	font-weight:50px;
+ 	font-size: 60px;
+ 	text-align: center;
+ 	color: #008080;
+ 	padding: 5px;
+}
+
+nav{
+	font-family: 'Chelsea Market';
+ 	font-weight:10px;
+ 	font-size: 20px;
+ 	text-align: center;
+ 	background-color:#E8C66A;
+ 	border: 1px black solid;
+    padding: 20px;
+}
+
+#topnav a{
+	font-size: 40px;
+	font-weight: 100;
+	font-family:'Amatic SC';
+	color: #FF0080;
+	text-decoration: none;
+	border: 1px black solid;
+    padding: 20px;
+    margin: 10px;
+}
+
+aside{
+	background-color:#FFC675;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+article{
+	text-align: right;
+	background-color:#E89C6C;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+footer{
+	background-color:#FF957E;
+    border: 1px black solid;
+    padding: 20px;	
+}
