@@ -20,8 +20,17 @@ header {
  	text-align: center;
  	color: #835C3B;
  	padding: 5px;
+ 	margin: .5em;
 }
 
+.girl{
+	display: block;
+	border-radius: 50%;
+	position: relative;
+	margin: auto;
+	border: 3px solid #73AD21;
+	padding: 10px;
+}
 nav{
 	font-family: 'Chelsea Market';
  	font-weight:10px;
@@ -47,6 +56,9 @@ aside{
 	background-color:#FFC675;
     border: 1px black solid;
     padding: 20px;
+}
+.deer{
+	width:50%;
 }
 
 article{
