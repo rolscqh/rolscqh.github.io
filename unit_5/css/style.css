@@ -1,5 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Chelsea+Market);
 @import url(https://fonts.googleapis.com/css?family=Amatic+SC:700);
+@import url(https://fonts.googleapis.com/css?family=Didact+Gothic);
 
 body {
   background-color: #ECB028;
@@ -17,7 +18,7 @@ header {
  	font-weight:50px;
  	font-size: 60px;
  	text-align: center;
- 	color: #008080;
+ 	color: #835C3B;
  	padding: 5px;
 }
 
@@ -35,7 +36,7 @@ nav{
 	font-size: 40px;
 	font-weight: 100;
 	font-family:'Amatic SC';
-	color: #FF0080;
+	color: #4E78A0;
 	text-decoration: none;
 	border: 1px black solid;
     padding: 20px;
@@ -49,7 +50,9 @@ aside{
 }
 
 article{
-	text-align: right;
+	vertical-align: right;
+	font-family: 'Didact Gothic';
+	font-size: 30px;
 	background-color:#E89C6C;
     border: 1px black solid;
     padding: 20px;
