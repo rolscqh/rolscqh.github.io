@@ -55,11 +55,21 @@ h2 {
 	width: 20%;
 }
 
-.clearfix:after{
+.clearfix:after {
 	visibility: hidden;
     display: block;
     font-size: 0;
     content: " ";
     clear: both;
     height: 0;
+}
+
+#first {
+	float: left;
+	width: 25%;
+}
+
+#second {
+	float: middle;
+	width: 25%;
 }
