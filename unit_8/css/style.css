@@ -1,7 +1,7 @@
 @import url(https://fonts.googleapis.com/css?family=Montserrat);
 
-#wrapper {
-	width:600px;
+.wrapper {
+	width:96%;
 	margin: 0 auto;
 }
 
@@ -9,18 +9,29 @@ h1 {
 	font-family: 'Montserrat';
 	font-weight: 2em;
 	font-size: 3em;
+	margin-top: 0;
+	margin-bottom: 0%;
 }
 
-#topnav a{
+.topnav a{
 	font-family: 'Montserrat';
-	font-size: 1.5em;
-	font-weight: bold;
-	float: right;
-	color: #000;
-	background-color: rgba(0,0,0,.1);
+	font-size: 1.2em;
+	color: #FFF;
+	background-color: rgba(0,0,0,.8);
 	text-decoration: none;
-	padding: .5em;
+	padding: 0.5em;
+	float: right;	
 	}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    top: 0;
+    right: 2.5%;
+    width: 100%;
+}
 
 .hvr-grow {
     display: inline-block;
@@ -37,22 +48,22 @@ h1 {
 .hvr-grow:focus,
 .hvr-grow:active {
     transform: scale(1.1);
+    color: #FFcccc;
 }
 
 .mainpic {
-	width: 80%;
-	display: block;
-	margin: auto;
+	width: 100%;
+	margin: 0 auto;
 }
 
-h2 {
+h2, h3 {
 	font-family: 'Montserrat';
 	font-weight: 1.5em;
 	font-size: 2em;
 }
 
 .foodpic {
-	width: 20%;
+	width: 80%;
 }
 
 .clearfix:after {
@@ -64,12 +75,99 @@ h2 {
     height: 0;
 }
 
-#first {
+#column {
+	display: block;
+	margin: auto;
+}
+
+.signature {
 	float: left;
+	width: 25%;
+	display: inline-block;
+	padding: 0;
+	margin: 0;
+}
+
+#find_us {
+	display: block;
+	margin: auto;
+}
+
+.map {
+	width: 20%;
+	float: left;
+}
+
+
+em {
+	font-weight: bolder;
+	font-style: normal;
+	color: grey;
+}
+
+p{
+	font-family: 'Montserrat';
+	font-weight: 1em;
+	font-size: 1.2em;
+}
+
+#information{
+	float: right;
 	width: 25%;
 }
 
-#second {
-	float: middle;
-	width: 25%;
+@media only screen and (max-width: 881px) {
+	.topnav a{
+		float: left;
+		margin-top: 6.5em;
+		padding-left: 1.5em;
+	}
 }
+
+@media only screen and (max-width: 600px) {
+	h1{
+		font-size: 2.5em;
+	}
+
+	.topnav a{
+		float: left;
+		margin-top: 6em;
+		padding-left: 1.5em;
+		font-size: 1.1em;
+	}
+}
+
+@media only screen and (max-width: 545px) {
+	h1{
+		font-size: 1.8em;
+		display: block;
+		text-align: center;
+	}
+
+	.topnav a{
+		float: none;
+		margin: 0em 1em 1em;
+		text-align: center;
+		font-size: 1.1em;
+	}
+
+	.mainpic {
+	width: 300px;
+	margin: 0 auto;
+	position: center;
+	}
+
+	h2{
+	font-size: 1.5em;
+	display: block;
+	text-align: center;
+	}	
+	
+	.signature {
+	position: center;
+	width: 300px;
+	}
+}
+
+
+
